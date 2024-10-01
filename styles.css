@@ -1,0 +1,67 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Orbitron', sans-serif;
+    background: radial-gradient(circle, #101010, #1a1a1a, #000000);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #ffffff;
+  }
+  
+  .container {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 50px rgba(0, 255, 255, 0.3);
+  }
+  
+  .header h1 {
+    color: #00ff99;
+    font-size: 4rem;
+    margin-bottom: 20px;
+    text-shadow: 0 0 15px #00ff99;
+  }
+  
+  .stopwatch {
+    margin-bottom: 20px;
+  }
+  
+  #display {
+    font-size: 3rem;
+    padding: 20px;
+    background-color: #1f1f1f;
+    border: 2px solid #00ff99;
+    border-radius: 10px;
+    box-shadow: 0 0 30px #00ff99;
+  }
+  
+  .controls {
+    margin-top: 20px;
+  }
+  
+  .btn {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #111;
+    color: #00ff99;
+    box-shadow: 0 0 10px #00ff99, 0 0 20px #00ccff;
+    transition: all 0.3s ease;
+  }
+  
+  .btn:hover {
+    background: #00ff99;
+    color: #111;
+    box-shadow: 0 0 
+  
